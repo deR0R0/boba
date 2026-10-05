@@ -1,0 +1,24 @@
+body {
+	font-family: system-ui, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	margin: 0;
+}
+button {
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	border-radius: 8px;
+	border: 0;
+	background: #ec3750;
+	color: white;
+	cursor: pointer;
+}
+
+#header {
+	display: flex;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #5bc1ea, #248ab3);
+	color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
